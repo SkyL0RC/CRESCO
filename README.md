@@ -15,6 +15,9 @@ CRESCO is a performance-based user acquisition platform built on the Monad Block
 *   **💎 Multi-Tier System:** Progression system including Free, KYC Verified, and Staker tiers.
 *   **🎨 Modern UI:** Sleek, glassmorphism-inspired interface optimized for user experience.
 
+demo: https://skyl0rc.github.io/cresco
+
+
 ## 🛠️ Technology Stack
 
 ### Frontend
