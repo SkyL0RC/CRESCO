@@ -16,7 +16,7 @@ CRESCO is a performance-based user acquisition platform built on the Monad Block
 *   **🎨 Modern UI:** Sleek, glassmorphism-inspired interface optimized for user experience.
 
 demo: https://skyl0rc.github.io/CRESCO
-      https://www.canva.com/design/DAG__x3qu1w/H4r5MH-yYL4erBs8UYlxNw/edit?utm_content=DAG__x3qu1w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
+canva: https://www.canva.com/design/DAG__x3qu1w/H4r5MH-yYL4erBs8UYlxNw/edit?utm_content=DAG__x3qu1w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
       
 
 
