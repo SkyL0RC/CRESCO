@@ -399,7 +399,7 @@ export default function QuestDetailPage() {
                         <AlertCircle className="w-16 h-16 text-[#F59E0B] mx-auto mb-4" />
                         <h3 className="text-2xl font-bold mb-2">Connect Your Wallet</h3>
                         <p className="text-muted-foreground mb-6">You need to connect your wallet to complete this quest.</p>
-                        <ConnectButton />
+                        <WalletButton />
                     </motion.div>
                 ) : quest.status !== 'Active' ? (
                     <motion.div

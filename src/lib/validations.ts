@@ -124,7 +124,7 @@ export const createNotificationSchema = z.object({
     type: z.enum(['quest_completed', 'badge_earned', 'reward_received', 'system', 'project_approved']),
     title: z.string().min(1).max(100),
     message: z.string().min(1).max(500),
-    metadata: z.record(z.unknown()).optional(),
+    metadata: z.record(z.string(), z.unknown()).optional(),
 });
 
 // ============================================
