@@ -1,5 +1,7 @@
 'use client';
 
+export const dynamic = 'force-dynamic';
+
 import { useState } from 'react';
 import QuestCreationForm from '@/components/project/QuestCreationForm';
 import { ProjectCreationModal } from '@/components/project/ProjectCreationModal';

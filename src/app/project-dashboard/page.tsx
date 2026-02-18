@@ -1,5 +1,7 @@
 'use client';
 
+export const dynamic = 'force-dynamic';
+
 import { motion } from 'framer-motion';
 import { Plus, Users, DollarSign, TrendingUp, MoreVertical, Edit, Pause, BarChart3, Rocket, ArrowLeft, CheckCircle, Calendar } from 'lucide-react';
 import { Button } from '@/components/ui/button';
