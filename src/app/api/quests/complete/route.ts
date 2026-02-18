@@ -5,19 +5,23 @@ import { questCompletionSchema } from '@/lib/validations';
 import { ZodError } from 'zod';
 
 // Service role client - bypasses RLS
-const supabaseAdmin = createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.SUPABASE_SERVICE_ROLE_KEY!,
-    {
-        auth: {
-            autoRefreshToken: false,
-            persistSession: false
+// Lazy initialization to avoid build-time errors on Vercel
+function getSupabaseAdmin() {
+    return createClient(
+        process.env.NEXT_PUBLIC_SUPABASE_URL!,
+        process.env.SUPABASE_SERVICE_ROLE_KEY!,
+        {
+            auth: {
+                autoRefreshToken: false,
+                persistSession: false
+            }
         }
-    }
-);
+    );
+}
 
 export async function POST(request: NextRequest) {
     try {
+        const supabaseAdmin = getSupabaseAdmin();
         const body = await request.json();
 
         // Validate input
